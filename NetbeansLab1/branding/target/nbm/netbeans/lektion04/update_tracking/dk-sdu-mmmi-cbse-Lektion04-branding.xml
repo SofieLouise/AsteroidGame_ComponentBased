@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><module codename="dk.sdu.mmmi.cbse.Lektion04.branding">
-    <module_version install_time="1585158414842" last="true" origin="installer" specification_version="1.0.1">
-        <file crc="718878124" name="config/Modules/dk-sdu-mmmi-cbse-Lektion04-branding.xml"/>
-        <file crc="1384254843" name="core/locale/core_lektion04.jar"/>
-        <file crc="4086317419" name="modules/dk-sdu-mmmi-cbse-Lektion04-branding.jar"/>
-        <file crc="615028408" name="modules/locale/org-netbeans-core-windows_lektion04.jar"/>
-        <file crc="453465354" name="modules/locale/org-netbeans-core_lektion04.jar"/>
-    </module_version>
-</module>
