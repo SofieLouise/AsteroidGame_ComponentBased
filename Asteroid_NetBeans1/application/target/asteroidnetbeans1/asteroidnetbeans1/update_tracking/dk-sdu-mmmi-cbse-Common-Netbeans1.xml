@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="dk.sdu.mmmi.cbse.Common.Netbeans1">
+    <module_version install_time="1585164774780" last="true" origin="installer" specification_version="1.0.1">
+        <file crc="3854149614" name="config/Modules/dk-sdu-mmmi-cbse-Common-Netbeans1.xml"/>
+        <file crc="1680217329" name="modules/dk-sdu-mmmi-cbse-Common-Netbeans1.jar"/>
+        <file crc="1208496412" name="update_tracking/dk-sdu-mmmi-cbse-Common-Netbeans1.xml"/>
+    </module_version>
+</module>
