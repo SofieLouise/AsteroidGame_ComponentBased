@@ -1,5 +1,5 @@
 -------------------------------------------------------------------------------
->Log Session: Wednesday, March 25, 2020 at 11:49:34 PM Central European Standard Time
+>Log Session: Thursday, March 26, 2020 at 12:47:46 AM Central European Standard Time
 >System Info: 
   Product Version         = Apache NetBeans Platform Dev (Build 11.2-d04fb24027334c4b6fd8397b5d0cdd33187a8f54)
   Operating System        = Windows 10 version 10.0 running on amd64
@@ -41,178 +41,105 @@ INFO [org.netbeans.core.startup.NbEvents]: Turning on modules:
 	org.netbeans.api.progress/1 [1.53 11.2-d04fb24027334c4b6fd8397b5d0cdd33187a8f54]
 	org.netbeans.api.progress.nb [1.53 11.2-d04fb24027334c4b6fd8397b5d0cdd33187a8f54]
 	org.netbeans.modules.autoupdate.services [1.59 11.2-d04fb24027334c4b6fd8397b5d0cdd33187a8f54]
-	dk.sdu.mmmi.cbse.SilentUpdate [1.0 1.0-20200325 202003252246]
-INFO [org.netbeans.modules.autoupdate.updateprovider.DownloadListener]: Reading URL file:/Users/slm/OneDrive%20-%20Syddansk%20Universitet/Semester%204/Komponentbaseret%20Softwareudvikling/SB4-KOM-F20/AsteroidGame_ComponentBased/Lektion05/netbeans_site/updates.xml failed (java.io.FileNotFoundException: \Users\slm\OneDrive - Syddansk Universitet\Semester 4\Komponentbaseret Softwareudvikling\SB4-KOM-F20\AsteroidGame_ComponentBased\Lektion05\netbeans_site\updates.xml (Den angivne sti blev ikke fundet))
-INFO [org.netbeans.modules.autoupdate.silentupdate]: A problem caught while refreshing Update Centers, cause: 
-java.io.FileNotFoundException: \Users\slm\OneDrive - Syddansk Universitet\Semester 4\Komponentbaseret Softwareudvikling\SB4-KOM-F20\AsteroidGame_ComponentBased\Lektion05\netbeans_site\updates.xml (Den angivne sti blev ikke fundet)
-	at java.base/java.io.FileInputStream.open0(Native Method)
-	at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
-	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:155)
-	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:110)
-	at java.base/sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:86)
-	at java.base/sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:184)
-	at org.netbeans.modules.autoupdate.updateprovider.NetworkAccess$Task$2.call(NetworkAccess.java:168)
-	at org.netbeans.modules.autoupdate.updateprovider.NetworkAccess$Task$2.call(NetworkAccess.java:138)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-Caused: java.io.IOException: \Users\slm\OneDrive - Syddansk Universitet\Semester 4\Komponentbaseret Softwareudvikling\SB4-KOM-F20\AsteroidGame_ComponentBased\Lektion05\netbeans_site\updates.xml (Den angivne sti blev ikke fundet)
-	at org.netbeans.modules.autoupdate.updateprovider.DownloadListener.notifyException(DownloadListener.java:78)
-	at org.netbeans.modules.autoupdate.updateprovider.AutoupdateCatalogCache.copy(AutoupdateCatalogCache.java:221)
-	at org.netbeans.modules.autoupdate.updateprovider.AutoupdateCatalogCache.writeCatalogToCache(AutoupdateCatalogCache.java:74)
-	at org.netbeans.modules.autoupdate.updateprovider.AutoupdateCatalogProvider.refresh(AutoupdateCatalogProvider.java:129)
-	at org.netbeans.modules.autoupdate.services.UpdateUnitProviderImpl.refresh(UpdateUnitProviderImpl.java:155)
-	at org.netbeans.api.autoupdate.UpdateUnitProvider.refresh(UpdateUnitProvider.java:171)
-[catch] at org.netbeans.modules.autoupdate.silentupdate.UpdateHandler.refreshSilentUpdateProvider(UpdateHandler.java:236)
-	at org.netbeans.modules.autoupdate.silentupdate.UpdateHandler.checkAndHandleUpdates(UpdateHandler.java:54)
-	at org.netbeans.modules.autoupdate.silentupdate.UpdateActivator$1.run(UpdateActivator.java:28)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
-	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:830)
+	dk.sdu.mmmi.cbse.SilentUpdate [1.0 1.0-20200325 202003252346]
+	dk.sdu.mmmi.cbse.Common.NetBeans2 [1.0 1.0-20200325 202003252346]
+	dk.sdu.mmmi.cbse.Player [1.0 1.0-20200325 202003252346]
+	dk.sdu.mmmi.cbse.CommonEnemy [1.0 1.0-20200325 202003252346]
+	dk.sdu.mmmi.cbse.Enemy [1.0 1.0-20200325 202003252334]
+	dk.sdu.mmmi.cbse.Core [1.0 1.0-20200325 202003252346]
+	dk.sdu.mmmi.cbse.CommonAsteroids [1.0 1.0-20200325 202003252346]
+	dk.sdu.mmmi.cbse.Collision [1.0 1.0-20200325 202003252346]
+	dk.sdu.mmmi.cbse.Bullet [1.0 1.0-20200325 202003252346]
+	dk.sdu.mmmi.cbse.Asteroid [1.0 1.0-20200325 202003252346]
 INFO [org.netbeans.modules.autoupdate.silentupdate]: None for update/install/uninstall
-INFO [org.netbeans.modules.autoupdate.updateprovider.DownloadListener]: Reading URL file:/Users/slm/OneDrive%20-%20Syddansk%20Universitet/Semester%204/Komponentbaseret%20Softwareudvikling/SB4-KOM-F20/AsteroidGame_ComponentBased/Lektion05/netbeans_site/updates.xml failed (java.io.FileNotFoundException: \Users\slm\OneDrive - Syddansk Universitet\Semester 4\Komponentbaseret Softwareudvikling\SB4-KOM-F20\AsteroidGame_ComponentBased\Lektion05\netbeans_site\updates.xml (Den angivne sti blev ikke fundet))
-INFO [org.netbeans.modules.autoupdate.silentupdate]: A problem caught while refreshing Update Centers, cause: 
-java.io.FileNotFoundException: \Users\slm\OneDrive - Syddansk Universitet\Semester 4\Komponentbaseret Softwareudvikling\SB4-KOM-F20\AsteroidGame_ComponentBased\Lektion05\netbeans_site\updates.xml (Den angivne sti blev ikke fundet)
-	at java.base/java.io.FileInputStream.open0(Native Method)
-	at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
-	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:155)
-	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:110)
-	at java.base/sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:86)
-	at java.base/sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:184)
-	at org.netbeans.modules.autoupdate.updateprovider.NetworkAccess$Task$2.call(NetworkAccess.java:168)
-	at org.netbeans.modules.autoupdate.updateprovider.NetworkAccess$Task$2.call(NetworkAccess.java:138)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-Caused: java.io.IOException: \Users\slm\OneDrive - Syddansk Universitet\Semester 4\Komponentbaseret Softwareudvikling\SB4-KOM-F20\AsteroidGame_ComponentBased\Lektion05\netbeans_site\updates.xml (Den angivne sti blev ikke fundet)
-	at org.netbeans.modules.autoupdate.updateprovider.DownloadListener.notifyException(DownloadListener.java:78)
-	at org.netbeans.modules.autoupdate.updateprovider.AutoupdateCatalogCache.copy(AutoupdateCatalogCache.java:221)
-	at org.netbeans.modules.autoupdate.updateprovider.AutoupdateCatalogCache.writeCatalogToCache(AutoupdateCatalogCache.java:74)
-	at org.netbeans.modules.autoupdate.updateprovider.AutoupdateCatalogProvider.refresh(AutoupdateCatalogProvider.java:129)
-	at org.netbeans.modules.autoupdate.services.UpdateUnitProviderImpl.refresh(UpdateUnitProviderImpl.java:155)
-	at org.netbeans.api.autoupdate.UpdateUnitProvider.refresh(UpdateUnitProvider.java:171)
-[catch] at org.netbeans.modules.autoupdate.silentupdate.UpdateHandler.refreshSilentUpdateProvider(UpdateHandler.java:236)
-	at org.netbeans.modules.autoupdate.silentupdate.UpdateHandler.checkAndHandleUpdates(UpdateHandler.java:54)
-	at org.netbeans.modules.autoupdate.silentupdate.UpdateActivator$1.run(UpdateActivator.java:28)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
-	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:830)
+INFO [null]: Last record repeated again.
+INFO [org.netbeans.modules.autoupdate.silentupdate]: Uninstall found: Enemy[dk.sdu.mmmi.cbse.Enemy/1.0]
+INFO [org.netbeans.core.startup.NbEvents]: Turning off modules:
+	dk.sdu.mmmi.cbse.Enemy [1.0 1.0-20200325 202003252334]
+INFO [org.netbeans.modules.autoupdate.silentupdate]: Unstall modules done.
+Turning off modules...
+Turning off modules...done.
 INFO [org.netbeans.modules.autoupdate.silentupdate]: None for update/install/uninstall
-INFO [org.netbeans.modules.autoupdate.updateprovider.DownloadListener]: Reading URL file:/Users/slm/OneDrive%20-%20Syddansk%20Universitet/Semester%204/Komponentbaseret%20Softwareudvikling/SB4-KOM-F20/AsteroidGame_ComponentBased/Lektion05/netbeans_site/updates.xml failed (java.io.FileNotFoundException: \Users\slm\OneDrive - Syddansk Universitet\Semester 4\Komponentbaseret Softwareudvikling\SB4-KOM-F20\AsteroidGame_ComponentBased\Lektion05\netbeans_site\updates.xml (Den angivne sti blev ikke fundet))
-INFO [org.netbeans.modules.autoupdate.silentupdate]: A problem caught while refreshing Update Centers, cause: 
-java.io.FileNotFoundException: \Users\slm\OneDrive - Syddansk Universitet\Semester 4\Komponentbaseret Softwareudvikling\SB4-KOM-F20\AsteroidGame_ComponentBased\Lektion05\netbeans_site\updates.xml (Den angivne sti blev ikke fundet)
-	at java.base/java.io.FileInputStream.open0(Native Method)
-	at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
-	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:155)
-	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:110)
-	at java.base/sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:86)
-	at java.base/sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:184)
-	at org.netbeans.modules.autoupdate.updateprovider.NetworkAccess$Task$2.call(NetworkAccess.java:168)
-	at org.netbeans.modules.autoupdate.updateprovider.NetworkAccess$Task$2.call(NetworkAccess.java:138)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-Caused: java.io.IOException: \Users\slm\OneDrive - Syddansk Universitet\Semester 4\Komponentbaseret Softwareudvikling\SB4-KOM-F20\AsteroidGame_ComponentBased\Lektion05\netbeans_site\updates.xml (Den angivne sti blev ikke fundet)
-	at org.netbeans.modules.autoupdate.updateprovider.DownloadListener.notifyException(DownloadListener.java:78)
-	at org.netbeans.modules.autoupdate.updateprovider.AutoupdateCatalogCache.copy(AutoupdateCatalogCache.java:221)
-	at org.netbeans.modules.autoupdate.updateprovider.AutoupdateCatalogCache.writeCatalogToCache(AutoupdateCatalogCache.java:74)
-	at org.netbeans.modules.autoupdate.updateprovider.AutoupdateCatalogProvider.refresh(AutoupdateCatalogProvider.java:129)
-	at org.netbeans.modules.autoupdate.services.UpdateUnitProviderImpl.refresh(UpdateUnitProviderImpl.java:155)
-	at org.netbeans.api.autoupdate.UpdateUnitProvider.refresh(UpdateUnitProvider.java:171)
-[catch] at org.netbeans.modules.autoupdate.silentupdate.UpdateHandler.refreshSilentUpdateProvider(UpdateHandler.java:236)
-	at org.netbeans.modules.autoupdate.silentupdate.UpdateHandler.checkAndHandleUpdates(UpdateHandler.java:54)
-	at org.netbeans.modules.autoupdate.silentupdate.UpdateActivator$1.run(UpdateActivator.java:28)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
-	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:830)
+INFO [null]: Last record repeated again.
+INFO [org.netbeans.modules.autoupdate.silentupdate]: Update found: Enemy[dk.sdu.mmmi.cbse.Enemy/1.0]
+INFO [org.netbeans.updater]: 780: Unpacking dk-sdu-mmmi-cbse-Enemy.nbm
+INFO [org.netbeans.updater]: File installed C:\Users\Sofie\OneDrive - Syddansk Universitet\Semester 4\Komponentbaseret Softwareudvikling\SB4-KOM-F20\AsteroidGame_ComponentBased\Lektion05\application\target\asteroidsnetbeansmodules\asteroidsnetbeansmodules\config\Modules\dk-sdu-mmmi-cbse-Enemy.xml@0
+INFO [org.netbeans.updater]: Copied file C:\Users\Sofie\OneDrive - Syddansk Universitet\Semester 4\Komponentbaseret Softwareudvikling\SB4-KOM-F20\AsteroidGame_ComponentBased\Lektion05\application\target\asteroidsnetbeansmodules\asteroidsnetbeansmodules\update\download\dk-sdu-mmmi-cbse-Enemy.nbm:netbeans/config/Modules/dk-sdu-mmmi-cbse-Enemy.xml to C:\Users\Sofie\OneDrive - Syddansk Universitet\Semester 4\Komponentbaseret Softwareudvikling\SB4-KOM-F20\AsteroidGame_ComponentBased\Lektion05\application\target\asteroidsnetbeansmodules\asteroidsnetbeansmodules\config\Modules\dk-sdu-mmmi-cbse-Enemy.xml
+INFO [org.netbeans.updater]: File installed C:\Users\Sofie\OneDrive - Syddansk Universitet\Semester 4\Komponentbaseret Softwareudvikling\SB4-KOM-F20\AsteroidGame_ComponentBased\Lektion05\application\target\asteroidsnetbeansmodules\asteroidsnetbeansmodules\modules\dk-sdu-mmmi-cbse-Enemy.jar@0
+INFO [org.netbeans.updater]: Copied file C:\Users\Sofie\OneDrive - Syddansk Universitet\Semester 4\Komponentbaseret Softwareudvikling\SB4-KOM-F20\AsteroidGame_ComponentBased\Lektion05\application\target\asteroidsnetbeansmodules\asteroidsnetbeansmodules\update\download\dk-sdu-mmmi-cbse-Enemy.nbm:netbeans/modules/dk-sdu-mmmi-cbse-Enemy.jar to C:\Users\Sofie\OneDrive - Syddansk Universitet\Semester 4\Komponentbaseret Softwareudvikling\SB4-KOM-F20\AsteroidGame_ComponentBased\Lektion05\application\target\asteroidsnetbeansmodules\asteroidsnetbeansmodules\modules\dk-sdu-mmmi-cbse-Enemy.jar
+INFO [org.netbeans.updater]: File C:\Users\Sofie\OneDrive - Syddansk Universitet\Semester 4\Komponentbaseret Softwareudvikling\SB4-KOM-F20\AsteroidGame_ComponentBased\Lektion05\application\target\asteroidsnetbeansmodules\asteroidsnetbeansmodules\update\download\dk-sdu-mmmi-cbse-Enemy.nbm deleted.
+INFO [org.netbeans.updater]: Use XML Transformer: com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl@528f8c5b
+INFO [org.netbeans.updater]: File C:\Users\Sofie\OneDrive - Syddansk Universitet\Semester 4\Komponentbaseret Softwareudvikling\SB4-KOM-F20\AsteroidGame_ComponentBased\Lektion05\application\target\asteroidsnetbeansmodules\asteroidsnetbeansmodules\update_tracking\dk-sdu-mmmi-cbse-Enemy.xml modified.
+INFO [org.netbeans.updater]: File installed C:\Users\Sofie\OneDrive - Syddansk Universitet\Semester 4\Komponentbaseret Softwareudvikling\SB4-KOM-F20\AsteroidGame_ComponentBased\Lektion05\application\target\asteroidsnetbeansmodules\asteroidsnetbeansmodules\update_tracking\dk-sdu-mmmi-cbse-Enemy.xml@0
+INFO [org.netbeans.updater]: File C:\Users\Sofie\OneDrive - Syddansk Universitet\Semester 4\Komponentbaseret Softwareudvikling\SB4-KOM-F20\AsteroidGame_ComponentBased\Lektion05\application\target\asteroidsnetbeansmodules\asteroidsnetbeansmodules\update\download\additional_information.xml deleted.
+INFO [org.netbeans.core.startup.NbEvents]: Turning on modules:
+	dk.sdu.mmmi.cbse.Enemy [1.0 1.0-20200325 202003252334]
+INFO [org.netbeans.modules.autoupdate.silentupdate]: Install new modules done.
+Turning on modules...
+Loading module services...
+Loading modules...
+Turning on modules...done.
 INFO [org.netbeans.modules.autoupdate.silentupdate]: None for update/install/uninstall
-INFO [org.netbeans.modules.autoupdate.updateprovider.DownloadListener]: Reading URL file:/Users/slm/OneDrive%20-%20Syddansk%20Universitet/Semester%204/Komponentbaseret%20Softwareudvikling/SB4-KOM-F20/AsteroidGame_ComponentBased/Lektion05/netbeans_site/updates.xml failed (java.io.FileNotFoundException: \Users\slm\OneDrive - Syddansk Universitet\Semester 4\Komponentbaseret Softwareudvikling\SB4-KOM-F20\AsteroidGame_ComponentBased\Lektion05\netbeans_site\updates.xml (Den angivne sti blev ikke fundet))
-INFO [org.netbeans.modules.autoupdate.silentupdate]: A problem caught while refreshing Update Centers, cause: 
-java.io.FileNotFoundException: \Users\slm\OneDrive - Syddansk Universitet\Semester 4\Komponentbaseret Softwareudvikling\SB4-KOM-F20\AsteroidGame_ComponentBased\Lektion05\netbeans_site\updates.xml (Den angivne sti blev ikke fundet)
-	at java.base/java.io.FileInputStream.open0(Native Method)
-	at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
-	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:155)
-	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:110)
-	at java.base/sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:86)
-	at java.base/sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:184)
-	at org.netbeans.modules.autoupdate.updateprovider.NetworkAccess$Task$2.call(NetworkAccess.java:168)
-	at org.netbeans.modules.autoupdate.updateprovider.NetworkAccess$Task$2.call(NetworkAccess.java:138)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-Caused: java.io.IOException: \Users\slm\OneDrive - Syddansk Universitet\Semester 4\Komponentbaseret Softwareudvikling\SB4-KOM-F20\AsteroidGame_ComponentBased\Lektion05\netbeans_site\updates.xml (Den angivne sti blev ikke fundet)
-	at org.netbeans.modules.autoupdate.updateprovider.DownloadListener.notifyException(DownloadListener.java:78)
-	at org.netbeans.modules.autoupdate.updateprovider.AutoupdateCatalogCache.copy(AutoupdateCatalogCache.java:221)
-	at org.netbeans.modules.autoupdate.updateprovider.AutoupdateCatalogCache.writeCatalogToCache(AutoupdateCatalogCache.java:74)
-	at org.netbeans.modules.autoupdate.updateprovider.AutoupdateCatalogProvider.refresh(AutoupdateCatalogProvider.java:129)
-	at org.netbeans.modules.autoupdate.services.UpdateUnitProviderImpl.refresh(UpdateUnitProviderImpl.java:155)
-	at org.netbeans.api.autoupdate.UpdateUnitProvider.refresh(UpdateUnitProvider.java:171)
-[catch] at org.netbeans.modules.autoupdate.silentupdate.UpdateHandler.refreshSilentUpdateProvider(UpdateHandler.java:236)
-	at org.netbeans.modules.autoupdate.silentupdate.UpdateHandler.checkAndHandleUpdates(UpdateHandler.java:54)
-	at org.netbeans.modules.autoupdate.silentupdate.UpdateActivator$1.run(UpdateActivator.java:28)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
-	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:830)
+INFO [null]: Last record repeated again.
+INFO [null]: Last record repeated 2 more times.
+INFO [org.netbeans.modules.autoupdate.silentupdate]: Uninstall found: Player[dk.sdu.mmmi.cbse.Player/1.0]
+INFO [org.netbeans.core.startup.NbEvents]: Turning off modules:
+	dk.sdu.mmmi.cbse.Player [1.0 1.0-20200325 202003252346]
+INFO [org.netbeans.modules.autoupdate.silentupdate]: Unstall modules done.
+Turning off modules...
+Turning off modules...done.
 INFO [org.netbeans.modules.autoupdate.silentupdate]: None for update/install/uninstall
-INFO [org.netbeans.modules.autoupdate.updateprovider.DownloadListener]: Reading URL file:/Users/slm/OneDrive%20-%20Syddansk%20Universitet/Semester%204/Komponentbaseret%20Softwareudvikling/SB4-KOM-F20/AsteroidGame_ComponentBased/Lektion05/netbeans_site/updates.xml failed (java.io.FileNotFoundException: \Users\slm\OneDrive - Syddansk Universitet\Semester 4\Komponentbaseret Softwareudvikling\SB4-KOM-F20\AsteroidGame_ComponentBased\Lektion05\netbeans_site\updates.xml (Den angivne sti blev ikke fundet))
-INFO [org.netbeans.modules.autoupdate.silentupdate]: A problem caught while refreshing Update Centers, cause: 
-java.io.FileNotFoundException: \Users\slm\OneDrive - Syddansk Universitet\Semester 4\Komponentbaseret Softwareudvikling\SB4-KOM-F20\AsteroidGame_ComponentBased\Lektion05\netbeans_site\updates.xml (Den angivne sti blev ikke fundet)
-	at java.base/java.io.FileInputStream.open0(Native Method)
-	at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
-	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:155)
-	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:110)
-	at java.base/sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:86)
-	at java.base/sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:184)
-	at org.netbeans.modules.autoupdate.updateprovider.NetworkAccess$Task$2.call(NetworkAccess.java:168)
-	at org.netbeans.modules.autoupdate.updateprovider.NetworkAccess$Task$2.call(NetworkAccess.java:138)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-Caused: java.io.IOException: \Users\slm\OneDrive - Syddansk Universitet\Semester 4\Komponentbaseret Softwareudvikling\SB4-KOM-F20\AsteroidGame_ComponentBased\Lektion05\netbeans_site\updates.xml (Den angivne sti blev ikke fundet)
-	at org.netbeans.modules.autoupdate.updateprovider.DownloadListener.notifyException(DownloadListener.java:78)
-	at org.netbeans.modules.autoupdate.updateprovider.AutoupdateCatalogCache.copy(AutoupdateCatalogCache.java:221)
-	at org.netbeans.modules.autoupdate.updateprovider.AutoupdateCatalogCache.writeCatalogToCache(AutoupdateCatalogCache.java:74)
-	at org.netbeans.modules.autoupdate.updateprovider.AutoupdateCatalogProvider.refresh(AutoupdateCatalogProvider.java:129)
-	at org.netbeans.modules.autoupdate.services.UpdateUnitProviderImpl.refresh(UpdateUnitProviderImpl.java:155)
-	at org.netbeans.api.autoupdate.UpdateUnitProvider.refresh(UpdateUnitProvider.java:171)
-[catch] at org.netbeans.modules.autoupdate.silentupdate.UpdateHandler.refreshSilentUpdateProvider(UpdateHandler.java:236)
-	at org.netbeans.modules.autoupdate.silentupdate.UpdateHandler.checkAndHandleUpdates(UpdateHandler.java:54)
-	at org.netbeans.modules.autoupdate.silentupdate.UpdateActivator$1.run(UpdateActivator.java:28)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
-	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:830)
+INFO [org.netbeans.modules.autoupdate.silentupdate]: Update found: Player[dk.sdu.mmmi.cbse.Player/1.0]
+INFO [org.netbeans.updater]: 780: Unpacking dk-sdu-mmmi-cbse-Player.nbm
+INFO [org.netbeans.updater]: File installed C:\Users\Sofie\OneDrive - Syddansk Universitet\Semester 4\Komponentbaseret Softwareudvikling\SB4-KOM-F20\AsteroidGame_ComponentBased\Lektion05\application\target\asteroidsnetbeansmodules\asteroidsnetbeansmodules\config\Modules\dk-sdu-mmmi-cbse-Player.xml@0
+INFO [org.netbeans.updater]: Copied file C:\Users\Sofie\OneDrive - Syddansk Universitet\Semester 4\Komponentbaseret Softwareudvikling\SB4-KOM-F20\AsteroidGame_ComponentBased\Lektion05\application\target\asteroidsnetbeansmodules\asteroidsnetbeansmodules\update\download\dk-sdu-mmmi-cbse-Player.nbm:netbeans/config/Modules/dk-sdu-mmmi-cbse-Player.xml to C:\Users\Sofie\OneDrive - Syddansk Universitet\Semester 4\Komponentbaseret Softwareudvikling\SB4-KOM-F20\AsteroidGame_ComponentBased\Lektion05\application\target\asteroidsnetbeansmodules\asteroidsnetbeansmodules\config\Modules\dk-sdu-mmmi-cbse-Player.xml
+INFO [org.netbeans.updater]: File installed C:\Users\Sofie\OneDrive - Syddansk Universitet\Semester 4\Komponentbaseret Softwareudvikling\SB4-KOM-F20\AsteroidGame_ComponentBased\Lektion05\application\target\asteroidsnetbeansmodules\asteroidsnetbeansmodules\modules\dk-sdu-mmmi-cbse-Player.jar@0
+INFO [org.netbeans.updater]: Copied file C:\Users\Sofie\OneDrive - Syddansk Universitet\Semester 4\Komponentbaseret Softwareudvikling\SB4-KOM-F20\AsteroidGame_ComponentBased\Lektion05\application\target\asteroidsnetbeansmodules\asteroidsnetbeansmodules\update\download\dk-sdu-mmmi-cbse-Player.nbm:netbeans/modules/dk-sdu-mmmi-cbse-Player.jar to C:\Users\Sofie\OneDrive - Syddansk Universitet\Semester 4\Komponentbaseret Softwareudvikling\SB4-KOM-F20\AsteroidGame_ComponentBased\Lektion05\application\target\asteroidsnetbeansmodules\asteroidsnetbeansmodules\modules\dk-sdu-mmmi-cbse-Player.jar
+WARNING [org.netbeans.updater]: Error: Cannot delete C:\Users\Sofie\OneDrive - Syddansk Universitet\Semester 4\Komponentbaseret Softwareudvikling\SB4-KOM-F20\AsteroidGame_ComponentBased\Lektion05\application\target\asteroidsnetbeansmodules\asteroidsnetbeansmodules\update\download\dk-sdu-mmmi-cbse-Player.nbm
+INFO [org.netbeans.updater]: Use XML Transformer: com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl@41757a82
+INFO [org.netbeans.updater]: File C:\Users\Sofie\OneDrive - Syddansk Universitet\Semester 4\Komponentbaseret Softwareudvikling\SB4-KOM-F20\AsteroidGame_ComponentBased\Lektion05\application\target\asteroidsnetbeansmodules\asteroidsnetbeansmodules\update_tracking\dk-sdu-mmmi-cbse-Player.xml modified.
+INFO [org.netbeans.updater]: File installed C:\Users\Sofie\OneDrive - Syddansk Universitet\Semester 4\Komponentbaseret Softwareudvikling\SB4-KOM-F20\AsteroidGame_ComponentBased\Lektion05\application\target\asteroidsnetbeansmodules\asteroidsnetbeansmodules\update_tracking\dk-sdu-mmmi-cbse-Player.xml@0
+INFO [org.netbeans.updater]: File C:\Users\Sofie\OneDrive - Syddansk Universitet\Semester 4\Komponentbaseret Softwareudvikling\SB4-KOM-F20\AsteroidGame_ComponentBased\Lektion05\application\target\asteroidsnetbeansmodules\asteroidsnetbeansmodules\update\download\additional_information.xml deleted.
+INFO [org.netbeans.core.startup.NbEvents]: Turning on modules:
+	dk.sdu.mmmi.cbse.Player [1.0 1.0-20200325 202003252334]
+INFO [org.netbeans.modules.autoupdate.silentupdate]: Install new modules done.
+Turning on modules...
+Loading module services...
+Loading modules...
+Turning on modules...done.
 INFO [org.netbeans.modules.autoupdate.silentupdate]: None for update/install/uninstall
-INFO [org.netbeans.modules.autoupdate.updateprovider.DownloadListener]: Reading URL file:/Users/slm/OneDrive%20-%20Syddansk%20Universitet/Semester%204/Komponentbaseret%20Softwareudvikling/SB4-KOM-F20/AsteroidGame_ComponentBased/Lektion05/netbeans_site/updates.xml failed (java.io.FileNotFoundException: \Users\slm\OneDrive - Syddansk Universitet\Semester 4\Komponentbaseret Softwareudvikling\SB4-KOM-F20\AsteroidGame_ComponentBased\Lektion05\netbeans_site\updates.xml (Den angivne sti blev ikke fundet))
-INFO [org.netbeans.modules.autoupdate.silentupdate]: A problem caught while refreshing Update Centers, cause: 
-java.io.FileNotFoundException: \Users\slm\OneDrive - Syddansk Universitet\Semester 4\Komponentbaseret Softwareudvikling\SB4-KOM-F20\AsteroidGame_ComponentBased\Lektion05\netbeans_site\updates.xml (Den angivne sti blev ikke fundet)
-	at java.base/java.io.FileInputStream.open0(Native Method)
-	at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
-	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:155)
-	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:110)
-	at java.base/sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:86)
-	at java.base/sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:184)
-	at org.netbeans.modules.autoupdate.updateprovider.NetworkAccess$Task$2.call(NetworkAccess.java:168)
-	at org.netbeans.modules.autoupdate.updateprovider.NetworkAccess$Task$2.call(NetworkAccess.java:138)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-Caused: java.io.IOException: \Users\slm\OneDrive - Syddansk Universitet\Semester 4\Komponentbaseret Softwareudvikling\SB4-KOM-F20\AsteroidGame_ComponentBased\Lektion05\netbeans_site\updates.xml (Den angivne sti blev ikke fundet)
-	at org.netbeans.modules.autoupdate.updateprovider.DownloadListener.notifyException(DownloadListener.java:78)
-	at org.netbeans.modules.autoupdate.updateprovider.AutoupdateCatalogCache.copy(AutoupdateCatalogCache.java:221)
-	at org.netbeans.modules.autoupdate.updateprovider.AutoupdateCatalogCache.writeCatalogToCache(AutoupdateCatalogCache.java:74)
-	at org.netbeans.modules.autoupdate.updateprovider.AutoupdateCatalogProvider.refresh(AutoupdateCatalogProvider.java:129)
-	at org.netbeans.modules.autoupdate.services.UpdateUnitProviderImpl.refresh(UpdateUnitProviderImpl.java:155)
-	at org.netbeans.api.autoupdate.UpdateUnitProvider.refresh(UpdateUnitProvider.java:171)
-[catch] at org.netbeans.modules.autoupdate.silentupdate.UpdateHandler.refreshSilentUpdateProvider(UpdateHandler.java:236)
-	at org.netbeans.modules.autoupdate.silentupdate.UpdateHandler.checkAndHandleUpdates(UpdateHandler.java:54)
-	at org.netbeans.modules.autoupdate.silentupdate.UpdateActivator$1.run(UpdateActivator.java:28)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
-	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:830)
+INFO [null]: Last record repeated again.
+INFO [null]: Last record repeated again.
+INFO [null]: Last record repeated 2 more times.
+INFO [null]: Last record repeated again.
+INFO [null]: Last record repeated again.
+INFO [null]: Last record repeated again.
+INFO [org.netbeans.modules.autoupdate.silentupdate]: Uninstall found: Asteroid[dk.sdu.mmmi.cbse.Asteroid/1.0]
+INFO [org.netbeans.core.startup.NbEvents]: Turning off modules:
+	dk.sdu.mmmi.cbse.Asteroid [1.0 1.0-20200325 202003252346]
+INFO [org.netbeans.modules.autoupdate.silentupdate]: Unstall modules done.
+Turning off modules...
+Turning off modules...done.
 INFO [org.netbeans.modules.autoupdate.silentupdate]: None for update/install/uninstall
+INFO [org.netbeans.modules.autoupdate.silentupdate]: Update found: Asteroid[dk.sdu.mmmi.cbse.Asteroid/1.0]
+INFO [org.netbeans.updater]: 780: Unpacking dk-sdu-mmmi-cbse-Asteroid.nbm
+INFO [org.netbeans.updater]: File installed C:\Users\Sofie\OneDrive - Syddansk Universitet\Semester 4\Komponentbaseret Softwareudvikling\SB4-KOM-F20\AsteroidGame_ComponentBased\Lektion05\application\target\asteroidsnetbeansmodules\asteroidsnetbeansmodules\config\Modules\dk-sdu-mmmi-cbse-Asteroid.xml@0
+INFO [org.netbeans.updater]: Copied file C:\Users\Sofie\OneDrive - Syddansk Universitet\Semester 4\Komponentbaseret Softwareudvikling\SB4-KOM-F20\AsteroidGame_ComponentBased\Lektion05\application\target\asteroidsnetbeansmodules\asteroidsnetbeansmodules\update\download\dk-sdu-mmmi-cbse-Asteroid.nbm:netbeans/config/Modules/dk-sdu-mmmi-cbse-Asteroid.xml to C:\Users\Sofie\OneDrive - Syddansk Universitet\Semester 4\Komponentbaseret Softwareudvikling\SB4-KOM-F20\AsteroidGame_ComponentBased\Lektion05\application\target\asteroidsnetbeansmodules\asteroidsnetbeansmodules\config\Modules\dk-sdu-mmmi-cbse-Asteroid.xml
+INFO [org.netbeans.updater]: File installed C:\Users\Sofie\OneDrive - Syddansk Universitet\Semester 4\Komponentbaseret Softwareudvikling\SB4-KOM-F20\AsteroidGame_ComponentBased\Lektion05\application\target\asteroidsnetbeansmodules\asteroidsnetbeansmodules\modules\dk-sdu-mmmi-cbse-Asteroid.jar@0
+INFO [org.netbeans.updater]: Copied file C:\Users\Sofie\OneDrive - Syddansk Universitet\Semester 4\Komponentbaseret Softwareudvikling\SB4-KOM-F20\AsteroidGame_ComponentBased\Lektion05\application\target\asteroidsnetbeansmodules\asteroidsnetbeansmodules\update\download\dk-sdu-mmmi-cbse-Asteroid.nbm:netbeans/modules/dk-sdu-mmmi-cbse-Asteroid.jar to C:\Users\Sofie\OneDrive - Syddansk Universitet\Semester 4\Komponentbaseret Softwareudvikling\SB4-KOM-F20\AsteroidGame_ComponentBased\Lektion05\application\target\asteroidsnetbeansmodules\asteroidsnetbeansmodules\modules\dk-sdu-mmmi-cbse-Asteroid.jar
+WARNING [org.netbeans.updater]: Error: Cannot delete C:\Users\Sofie\OneDrive - Syddansk Universitet\Semester 4\Komponentbaseret Softwareudvikling\SB4-KOM-F20\AsteroidGame_ComponentBased\Lektion05\application\target\asteroidsnetbeansmodules\asteroidsnetbeansmodules\update\download\dk-sdu-mmmi-cbse-Asteroid.nbm
+INFO [org.netbeans.updater]: Use XML Transformer: com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl@2260e1b2
+INFO [org.netbeans.updater]: File C:\Users\Sofie\OneDrive - Syddansk Universitet\Semester 4\Komponentbaseret Softwareudvikling\SB4-KOM-F20\AsteroidGame_ComponentBased\Lektion05\application\target\asteroidsnetbeansmodules\asteroidsnetbeansmodules\update_tracking\dk-sdu-mmmi-cbse-Asteroid.xml modified.
+INFO [org.netbeans.updater]: File installed C:\Users\Sofie\OneDrive - Syddansk Universitet\Semester 4\Komponentbaseret Softwareudvikling\SB4-KOM-F20\AsteroidGame_ComponentBased\Lektion05\application\target\asteroidsnetbeansmodules\asteroidsnetbeansmodules\update_tracking\dk-sdu-mmmi-cbse-Asteroid.xml@0
+INFO [org.netbeans.updater]: File C:\Users\Sofie\OneDrive - Syddansk Universitet\Semester 4\Komponentbaseret Softwareudvikling\SB4-KOM-F20\AsteroidGame_ComponentBased\Lektion05\application\target\asteroidsnetbeansmodules\asteroidsnetbeansmodules\update\download\additional_information.xml deleted.
+INFO [org.netbeans.core.startup.NbEvents]: Turning on modules:
+	dk.sdu.mmmi.cbse.Asteroid [1.0 1.0-20200325 202003252334]
+INFO [org.netbeans.modules.autoupdate.silentupdate]: Install new modules done.
+Turning on modules...
+Loading module services...
+Loading modules...
+Turning on modules...done.
+INFO [org.netbeans.modules.autoupdate.silentupdate]: None for update/install/uninstall
+INFO [null]: Last record repeated 2 more times.
+INFO [null]: Last record repeated again.
+INFO [null]: Last record repeated again.
