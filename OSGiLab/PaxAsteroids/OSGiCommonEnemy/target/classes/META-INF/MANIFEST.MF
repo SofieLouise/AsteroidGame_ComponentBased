@@ -1,17 +1,17 @@
 Manifest-Version: 1.0
-Bundle-Description: Generated using Pax-Construct
-Bundle-SymbolicName: dk.sdu.mmmi.common
-Built-By: slm
 Bundle-ManifestVersion: 2
-Bnd-LastModified: 1584010381161
-Import-Package: dk.sdu.mmmi.cbse.common.data,dk.sdu.mmmi.cbse.common.e
- nemy
+Created-By: Apache Maven Bundle Plugin
 Tool: Bnd-0.0.255
-Export-Package: dk.sdu.mmmi.cbse.common.enemy;uses:="dk.sdu.mmmi.cbse.
- common.data"
+Bnd-LastModified: 1585225966566
+Export-Package: dk.sdu.mmmi.cbse.common.enemy;uses:="dk.sdu.mmmi.cbse.co
+ mmon.data"
+Import-Package: dk.sdu.mmmi.cbse.common.data,dk.sdu.mmmi.cbse.common.ene
+ my
 Bundle-Version: 1.0.0.SNAPSHOT
+Bundle-SymbolicName: dk.sdu.mmmi.common
+Bundle-Description: Generated using Pax-Construct
 Bundle-Name: OSGiCommonEnemy
 Private-Package: dk.sdu.mmmi.internal.*
-Created-By: Apache Maven Bundle Plugin
-Build-Jdk: 1.8.0_242
+Built-By: sofielouise
+Build-Jdk: 13.0.2
 
